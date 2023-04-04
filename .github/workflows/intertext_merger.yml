@@ -33,6 +33,8 @@ jobs:
         
     - name: Commmit changes
       run: |
+        git config --global user.email "tenchime27@gmail.com"
+        git config --global user.name "tenzin-chime"
         git add data/output/*
         git commit -m "update output data"
   
