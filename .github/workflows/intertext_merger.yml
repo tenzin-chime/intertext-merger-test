@@ -30,6 +30,11 @@ jobs:
         commit_msg="${{ github.event.head_commit.message }}"
         
         python .github/script/intertext_merger.py "$commit_msg"
+        
+    - name: Commmit changes
+      run: |
+        git add data/output/*
+        git commit -m "update output data"
   
     - name: Push Changes
       uses: ad-m/github-push-action@master
