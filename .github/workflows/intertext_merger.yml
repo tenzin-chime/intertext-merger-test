@@ -35,7 +35,6 @@ jobs:
       run: |
         git add data/output/*
         git commit -m "update output data"
-      shell: bash
   
     - name: Push Changes
       uses: ad-m/github-push-action@master
