@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linkGrp fromDoc="shes-bya-rnam.bo.xml" toDoc="shes-bya-rnam.zh.xml">
+ <link status="man" type="1-1" xtargets="1:1;1:1"/>
+ <link status="man" type="1-1" xtargets=";2:1"/>
+ <link status="man" type="1-1" xtargets=";3:1"/>
+ <link status="man" type="1-0" xtargets="2:1;"/>
+ <link status="man" type="1-1" xtargets="2:2;4:1"/>
+ <link status="man" type="1-1" xtargets="2:3;4:2"/>
+ <link status="man" type="1-1" xtargets="2:4;4:3"/>
+ <link status="man" type="1-1" xtargets="2:5;"/>
+</linkGrp>
